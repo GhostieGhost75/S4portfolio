@@ -1,0 +1,78 @@
+html, body {
+    background: #4e453a;
+    margin : 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color : white;
+}
+
+.navbar {
+    background: rgb(139, 123, 102);
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.navbar > button {
+    text-align: center;
+    color : white;
+    border-radius: 5px;
+    border : 1px solid black;
+    background-color: rgb(78, 69, 58);
+    padding: 10px;
+    font-size: large;
+    margin: 5px;
+}
+
+.navbar > button:hover:enabled {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.navbar > button:disabled {
+    background-color: rgb(141, 133, 122);
+    border: none;
+}
+
+.content {
+    background: rgb(139, 123, 102);
+    padding: 5px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    border-radius: 15px;
+}
+
+.centeredh {
+    text-align: center;
+}
+
+.sub-block {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin : 10px;
+    border: 1px solid #4e453a;
+    border-radius : 15px;
+}
+
+.sub-block > * {
+    margin: 5px;
+}
+
+.img-text {
+    display : flex;
+    align-items: center;
+}
+
+.img-text > svg {
+    height: 1em;
+    width: auto;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.sub-block > img {
+    display: inline-block;
+    width : 60%;
+    height: auto;
+}

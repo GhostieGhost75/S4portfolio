@@ -1,8 +1,16 @@
-Présentation (genre le premier paragraphe de ma lettre de motivation)
-Sommaire (barre de navigation)
-Formation (formation actuelle etc)
-Projets (STAR)
-Compétences (en correlation avec mon projet pro)
-Passions (en général)
-Ambitions (jsp)
-Documents (genre CV)
+A faire :
+- Présentation (genre le premier paragraphe de ma lettre de motivation)
+
+- Formation (formation actuelle etc)
+- Projets (STAR)
+- Compétences (en correlation avec mon projet pro)
+- Passions (en général)
+- Ambitions (jsp)
+- Documents (genre CV)
+
+2/3 images/vidéos
+1/3 texte
+
+Fait :
+
+- Sommaire (barre de navigation)
