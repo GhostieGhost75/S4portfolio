@@ -1,7 +1,7 @@
 A faire :
 - Présentation (genre le premier paragraphe de ma lettre de motivation)
 
-- Formation (formation actuelle etc)
+
 - Projets (STAR)
 - Compétences (en correlation avec mon projet pro)
 - Passions (en général)
@@ -14,3 +14,5 @@ A faire :
 Fait :
 
 - Sommaire (barre de navigation)
+
+- Formation (formation actuelle etc)
