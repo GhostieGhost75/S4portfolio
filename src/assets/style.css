@@ -1,25 +1,33 @@
+:root {
+    --bg : #4e453a;
+    --text : #ffffff;
+    --butoff : #8D857A;
+    --fg : #8B7B66;
+    --radius : 15px;
+}
+
 html, body {
-    background: #4e453a;
+    background: var(--bg);
     margin : 5px;
     font-family: Arial, Helvetica, sans-serif;
-    color : white;
+    color : var(--text);
 }
 
 .navbar {
-    background: rgb(139, 123, 102);
+    background: var(--fg);
     display: flex;
     padding: 5px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border-radius: 15px;
+    border-radius: var(--radius);
 }
 
 .navbar > button {
     text-align: center;
-    color : white;
-    border-radius: 5px;
+    color : var(--text);
+    border-radius: var(--radius);
     border : 1px solid black;
-    background-color: rgb(78, 69, 58);
+    background-color: var(--bg);
     padding: 10px;
     font-size: large;
     margin: 5px;
@@ -31,16 +39,16 @@ html, body {
 }
 
 .navbar > button:disabled {
-    background-color: rgb(141, 133, 122);
+    background-color: var(--butoff);
     border: none;
 }
 
 .content {
-    background: rgb(139, 123, 102);
+    background: var(--fg);
     padding: 5px;
     margin-top : 10px;
     margin-bottom : 10px;
-    border-radius: 15px;
+    border-radius: var(--radius);
 }
 
 .centeredh {
@@ -51,8 +59,8 @@ html, body {
     padding-left: 20%;
     padding-right: 20%;
     margin : 10px;
-    border: 1px solid #4e453a;
-    border-radius : 15px;
+    border: 1px solid var(--bg);
+    border-radius : var(--radius);
 }
 
 .sub-block > * {
@@ -61,7 +69,7 @@ html, body {
 
 .img-text {
     display : flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -78,6 +86,7 @@ html, body {
     display: block;
     width : 60%;
     height: auto;
+    border-radius: var(--radius);
 }
 
 .doublediv {
@@ -89,4 +98,8 @@ html, body {
 
 .doublediv > div {
     width:48%;
+}
+
+.doublediv > div > *:not(h1) {
+    padding: 10px;
 }
