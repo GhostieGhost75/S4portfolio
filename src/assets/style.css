@@ -22,7 +22,7 @@ html, body {
     border-radius: var(--radius);
 }
 
-.navbar > button {
+button {
     text-align: center;
     color : var(--text);
     border-radius: var(--radius);
@@ -30,18 +30,21 @@ html, body {
     background-color: var(--bg);
     padding: 10px;
     margin: 5px;
-    width: 15%;
     font-size: large;
 }
 
-.navbar > button:hover:enabled {
+button:hover:enabled {
     filter: brightness(0.8);
     cursor: pointer;
 }
 
-.navbar > button:disabled {
+button:disabled {
     background-color: var(--butoff);
     border: none;
+}
+
+.navbar > button {
+    width: 15%;
 }
 
 .content {
@@ -105,3 +108,9 @@ html, body {
     padding: 10px;
 }
 
+ul {
+    list-style-position: inside;
+}
+
+a:link {color: #0036ac}
+a:hover {filter:brightness(1.3)}
