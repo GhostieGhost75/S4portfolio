@@ -37,6 +37,7 @@ button {
 button:hover:enabled {
     filter: brightness(0.8);
     cursor: pointer;
+    transition: filter 0.3s;
 }
 
 button:disabled {
@@ -113,6 +114,7 @@ button:disabled {
     display: flex;
     justify-content: space-between;
     padding : 0;
+    gap: 2%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -123,7 +125,7 @@ button:disabled {
 }
 
 .doublediv > div {
-    width:48.5%;
+    flex: 1;
     margin: 0;
 }
 
@@ -144,4 +146,6 @@ ul {
 
 a:link {color: var(--hyperlink);
 }
-a:hover {filter:brightness(1.3)}
+a:hover {
+    filter:brightness(1.3);
+}
