@@ -51,7 +51,7 @@ button:disabled {
 
 .content {
     background: var(--fg);
-    padding: 5px;
+    padding: 10px;
     margin-top : 10px;
     margin-bottom : 10px;
     border-radius: var(--radius);
@@ -127,6 +127,7 @@ button:disabled {
 .doublediv > div {
     flex: 1;
     margin: 0;
+    height: 100%
 }
 
 .doublediv > div > *:not(h1) {
@@ -134,8 +135,8 @@ button:disabled {
 }
 
 .projetphoto {
-    width: 48.5%;
-    height: 48.5%;
+    max-width: 48.5%;
+    height:auto;
     border-radius: var(--radius);
     margin: 0;
 }
